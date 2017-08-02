@@ -91,7 +91,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 45
+  controlID: 126
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -316,9 +316,9 @@ MonoBehaviour:
     height: 926
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22290000
-    m_LastClickedID: 10530
-    m_ExpandedIDs: 1afcffff0000000004290000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Noah\Documents\GitHub\Iron-Oasis-1.1\Iron-Oasis-Unity\Iron
+  m_LastProjectPath: C:\Users\Noah\Documents\GitHub\iron-oasis-1.2\Iron-Oasis-Unity\Iron
     Oasis
   m_IsLocked: 0
   m_FolderTreeState:
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.40253276, y: -0.009894307, z: 0.0043565286, w: -0.91534173}
     speed: 2
-    m_Value: {x: -0.40253276, y: -0.009894307, z: 0.0043565286, w: -0.91534173}
+    m_Value: {x: -0.40253276, y: -0.009894308, z: 0.0043565286, w: -0.9153418}
   m_Size:
     m_Target: 22
     speed: 2
