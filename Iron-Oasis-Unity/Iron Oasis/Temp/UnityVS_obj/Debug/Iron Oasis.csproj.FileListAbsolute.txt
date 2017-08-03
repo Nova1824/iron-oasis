@@ -1,0 +1,23 @@
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\nunit.framework.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.TestRunner.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.Timeline.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.TestRunner.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\nunit.framework.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.Timeline.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_obj\Debug\Iron Oasis.csprojResolveAssemblyReference.cache
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\Thoma\ironoasis\iron-oasis\Iron-Oasis-Unity\Iron Oasis\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
