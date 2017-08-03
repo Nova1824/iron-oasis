@@ -24,7 +24,6 @@ public class PlayerScript : MonoBehaviour {
 
     void OnDisable()
     {
-        rb.isKinematic = true;
     }
 
     // Use this for initialization
@@ -65,8 +64,10 @@ public class PlayerScript : MonoBehaviour {
         {
             move = Vector3.zero;
         }
-            
-        rb.MovePosition(rb.position + move);
+
+        //transform.position += move;
+        //rb.MovePosition(rb.position + move);
+        rb.velocity = move;
     }
 
     private void Turn()
