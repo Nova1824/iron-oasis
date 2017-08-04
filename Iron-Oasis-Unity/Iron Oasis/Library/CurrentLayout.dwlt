@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 139
+  controlID: 9
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,20 +379,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Particles
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Particles
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Noah\Documents\GitHub\iron-oasis\Iron-Oasis-Unity\Iron
     Oasis
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64270000
-    m_LastClickedID: 10084
-    m_ExpandedIDs: 0000000014260000f426000046270000b627000000ca9a3bffffff7f
+    m_SelectedIDs: 18260000
+    m_LastClickedID: 9752
+    m_ExpandedIDs: 000000001826000052260000f82600004a270000ba270000f627000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -420,7 +420,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000142600003a260000f426000046270000b6270000f2270000
+    m_ExpandedIDs: 0000000018260000f82600004a270000ba270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,18 +451,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Prefabs
-      m_OriginalName: Prefabs
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 10226
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_CreateAssetUtility:
@@ -536,9 +536,9 @@ MonoBehaviour:
     height: 611
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 1afcffff00000000
+    m_SelectedIDs: 00fcffff
+    m_LastClickedID: -1024
+    m_ExpandedIDs: 1afcffff00000000ae290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,9 +593,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.06999993, y: 2.68, z: 1.8199999}
+    m_Target: {x: 9.0814905, y: 3.9267654, z: 8.165569}
     speed: 2
-    m_Value: {x: -0.06999993, y: 2.68, z: 1.8199999}
+    m_Value: {x: 9.0814905, y: 3.9267654, z: 8.165569}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -618,13 +618,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.6320935, y: -0.010925077, z: 0.008903707, w: 0.7747718}
+    m_Target: {x: 0.42422563, y: 0.027975006, z: -0.0131259635, w: 0.9050356}
     speed: 2
-    m_Value: {x: 0.6320897, y: -0.010925011, z: 0.008903653, w: 0.7747671}
+    m_Value: {x: 0.42422315, y: 0.027974842, z: -0.013125887, w: 0.9050303}
   m_Size:
-    m_Target: 18.868475
+    m_Target: 81.97136
     speed: 2
-    m_Value: 18.868475
+    m_Value: 81.97136
   m_Ortho:
     m_Target: 0
     speed: 2
