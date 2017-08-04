@@ -20,7 +20,7 @@ public class EnemyManagerScript : MonoBehaviour
         float xCoord = Random.Range(-40, 45);
         float zCoord = Random.Range(-38, 20);
 
-        Instantiate(enemy, new Vector3(xCoord, 0.62f, zCoord), Quaternion.identity);
+        Instantiate(enemy, new Vector3(xCoord, 2.15f, zCoord), Quaternion.identity);
         count++;
     }
 
