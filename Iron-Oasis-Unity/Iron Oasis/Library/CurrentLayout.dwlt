@@ -72,7 +72,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 112
+=======
+  controlID: 9
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,20 +383,35 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
     - Assets/Meshes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
   - Assets/Meshes
+=======
+    - Assets
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\user2\Documents\GitHub\iron-oasis\Iron-Oasis-Unity\Iron
     Oasis
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 11}
     m_SelectedIDs: 7a290000
     m_LastClickedID: 10618
     m_ExpandedIDs: 00000000442900000e2a0000582a0000c02a000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 18260000
+    m_LastClickedID: 9752
+    m_ExpandedIDs: 000000001826000052260000f82600004a270000ba270000f627000000ca9a3bffffff7f
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -420,7 +439,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000442900000e2a0000582a0000c02a0000
+=======
+    m_ExpandedIDs: 0000000018260000f82600004a270000ba270000
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -535,10 +558,17 @@ MonoBehaviour:
     width: 198
     height: 343
   m_TreeViewState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 64}
     m_SelectedIDs: 122c0000
     m_LastClickedID: 11282
     m_ExpandedIDs: 7af9ffff00000000aa2b00003c2c00008a2c0000
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 00fcffff
+    m_LastClickedID: -1024
+    m_ExpandedIDs: 1afcffff00000000ae290000
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,9 +623,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 7.0460205, y: 2.4589844, z: 34.42285}
     speed: 2
     m_Value: {x: 7.0460205, y: 2.4589844, z: 34.42285}
+=======
+    m_Target: {x: 9.0814905, y: 3.9267654, z: 8.165569}
+    speed: 2
+    m_Value: {x: 9.0814905, y: 3.9267654, z: 8.165569}
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -618,13 +654,23 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.6320897, y: -0.010925011, z: 0.008903653, w: 0.7747671}
+=======
+    m_Target: {x: 0.42422563, y: 0.027975006, z: -0.0131259635, w: 0.9050356}
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
     speed: 2
-    m_Value: {x: 0.6320897, y: -0.010925011, z: 0.008903653, w: 0.7747671}
+    m_Value: {x: 0.42422315, y: 0.027974842, z: -0.013125887, w: 0.9050303}
   m_Size:
+<<<<<<< HEAD
     m_Target: 16.150562
     speed: 2
     m_Value: 16.150562
+=======
+    m_Target: 81.97136
+    speed: 2
+    m_Value: 81.97136
+>>>>>>> 935dfbacbc5f0980900b351ff6a5ef2ae44fee3a
   m_Ortho:
     m_Target: 1
     speed: 2
