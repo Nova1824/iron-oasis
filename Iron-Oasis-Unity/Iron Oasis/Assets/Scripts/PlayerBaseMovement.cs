@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerScript : MonoBehaviour {
+public class PlayerBaseMovement : MonoBehaviour {
 
     public float speed = 1f;
     public float turnSpeed = 20f;
 
     private Vector3 input;
     private Rigidbody rb;
-    private Vector3 targetDirection;
+    private Quaternion targetDirection;
 
     void Awake()
     {
@@ -20,17 +20,12 @@ public class PlayerScript : MonoBehaviour {
     {
         rb.isKinematic = false;
     }
-
-    // Use this for initialization
-    void Start () {
-
-	}
 	
 	// Update is called once per frame
 	void Update () {
 
         input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-        Debug.Log(input);
+        //Debug.Log(input);
 
     }
 
@@ -49,12 +44,18 @@ public class PlayerScript : MonoBehaviour {
     {
 
         if (input != Vector3.zero)
-            targetDirection = new Vector3(input.x, 0f, input.z);
+            targetDirection = Quaternion.LookRotation(input);
 
-        Quaternion turn = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(targetDirection), Time.deltaTime * turnSpeed);
+        transform.rotation = Quaternion.Lerp(transform.rotation, targetDirection, turnSpeed * Time.deltaTime);
 
-        //Quaternion turn = Quaternion.LookRotation(targetDirection);
+            //Other turning method
+            /*
+            if (input != Vector3.zero)
+            {
+                targetDirection = Quaternion.LookRotation(input);
+                transform.eulerAngles = Vector3.up * Mathf.MoveTowardsAngle(transform.eulerAngles.y, targetDirection.eulerAngles.y, turnSpeed * Time.deltaTime);
+            }
+            */
 
-        transform.rotation = turn;
-    }
+        }
 }
