@@ -23,7 +23,6 @@ public class PlayerTurretMovement : MonoBehaviour {
             Vector3 playerToMouse = floorHit.point - transform.position;
             playerToMouse.y = 0f;
             Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
-            //rb.MoveRotation(newRotation);
             transform.rotation = newRotation;
         }
 
