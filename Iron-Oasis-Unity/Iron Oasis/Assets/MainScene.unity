@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8c224698d201343a1f1c9e10c69090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
-  turnSpeed: 8
+  speed: 400
+  turnSpeed: 10
 --- !u!23 &35469802
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -200,8 +200,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.309101, y: 5.0767198, z: 6.5623093}
-  m_Center: {x: 0, y: 1.73, z: 0}
+  m_Size: {x: 5.309101, y: 8.054888, z: 6.5623093}
+  m_Center: {x: 0, y: 3.2190838, z: 0}
 --- !u!33 &35469804
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -216,8 +216,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 35469799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0.325, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 1133572568}
   m_Father: {fileID: 0}
@@ -1974,10 +1974,10 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.582
+    m_Strength: 0.963
     m_Bias: 0.049
-    m_NormalBias: 0.62
-    m_NearPlane: 0.99
+    m_NormalBias: 0.12
+    m_NearPlane: 0.44
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -2012,13 +2012,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1059851803}
-  m_LocalRotation: {x: 0.53997797, y: 0.36632985, z: -0.28109473, w: 0.70371306}
+  m_LocalRotation: {x: 0.24999999, y: 0.75000006, z: -0.43301275, w: 0.43301266}
   m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 75, y: 55, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 120, z: 0}
 --- !u!4 &1093323341 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4309486039146252, guid: fd73cbf8f47b7604391616602476a368,
@@ -3078,8 +3078,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 200
-  field of view: 47.1
+  far clip plane: 50
+  field of view: 45
   orthographic: 0
   orthographic size: 9.911785
   m_Depth: 0
@@ -3122,8 +3122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 35469805}
-  offset: {x: 0, y: -2, z: 0.8}
-  pitch: 2
+  offset: {x: 0, y: -1.5, z: 1}
+  pitch: -1
 --- !u!1001 &1895649331
 Prefab:
   m_ObjectHideFlags: 0
