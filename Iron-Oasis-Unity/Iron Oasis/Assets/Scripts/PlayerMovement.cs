@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public float speed = 400f;
+    public float speed = 8f;
     public float turnSpeed = 20f;
 
     private Transform hull;
@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour {
  
     private void Move()
     {
-        rb.velocity = Vector3.Normalize(input) * speed * Time.deltaTime;
+        rb.velocity = Vector3.Normalize(input) * speed;
     }
 
     private void Turn()
