@@ -2569,7 +2569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8c224698d201343a1f1c9e10c69090, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laser: {fileID: 1475545356700336, guid: 238cc9417dfab3344ae312a7ffdaffec, type: 2}
+  laser: {fileID: 1051433772900746, guid: d10fcd22ee9fec74d808106a940920f8, type: 2}
   speed: 8
   turnSpeed: 5
   fireSpeed: 2
