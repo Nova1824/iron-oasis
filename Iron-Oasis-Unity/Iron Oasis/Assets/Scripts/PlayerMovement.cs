@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour {
         input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
         if (Input.GetMouseButton(0) && Time.time >= shootTime)
         {
-            var projectile = (GameObject)Instantiate(laser, turret.transform.position + Vector3.Normalize(turret.transform.forward) * 2.5f, turret.transform.rotation);
+            var projectile = (GameObject)Instantiate(laser, turret.transform.position + Vector3.Normalize(turret.transform.forward) * 2f, turret.transform.rotation);
             projectile.GetComponent<Rigidbody>().velocity = projectile.transform.forward * 30;
             Destroy(projectile, 2.0f);
             shootTime = Time.time + 1f / fireSpeed;

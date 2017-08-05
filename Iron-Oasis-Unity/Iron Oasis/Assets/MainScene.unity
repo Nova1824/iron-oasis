@@ -2572,7 +2572,7 @@ MonoBehaviour:
   laser: {fileID: 1475545356700336, guid: 238cc9417dfab3344ae312a7ffdaffec, type: 2}
   speed: 8
   turnSpeed: 5
-  fireSpeed: 5
+  fireSpeed: 2
 --- !u!1001 &1664732914
 Prefab:
   m_ObjectHideFlags: 0
