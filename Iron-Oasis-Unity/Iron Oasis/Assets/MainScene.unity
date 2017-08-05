@@ -119,45 +119,14 @@ GameObject:
   m_Component:
   - component: {fileID: 35469805}
   - component: {fileID: 35469804}
-  - component: {fileID: 35469803}
   - component: {fileID: 35469802}
-  - component: {fileID: 35469801}
-  - component: {fileID: 35469800}
   m_Layer: 0
-  m_Name: Tank
-  m_TagString: Player
+  m_Name: Hull
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &35469800
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 35469799}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 1
-  m_AngularDrag: Infinity
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 84
-  m_CollisionDetection: 0
---- !u!114 &35469801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 35469799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e8c224698d201343a1f1c9e10c69090, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 400
-  turnSpeed: 10
 --- !u!23 &35469802
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -190,18 +159,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &35469803
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 35469799}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.309101, y: 8.054888, z: 6.5623093}
-  m_Center: {x: 0, y: 3.2190838, z: 0}
 --- !u!33 &35469804
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -216,12 +173,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 35469799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.325, z: 0}
+  m_LocalPosition: {x: 0, y: 0.382, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
-  m_Children:
-  - {fileID: 1133572568}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Children: []
+  m_Father: {fileID: 1620517528}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &53059183
 Prefab:
@@ -2088,7 +2044,6 @@ GameObject:
   - component: {fileID: 1133572568}
   - component: {fileID: 1133572571}
   - component: {fileID: 1133572569}
-  - component: {fileID: 1133572572}
   m_Layer: 0
   m_Name: Turret
   m_TagString: Untagged
@@ -2103,10 +2058,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1133572567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3098941, z: -0.169}
-  m_LocalScale: {x: 0.72872686, y: 0.6274624, z: 0.69457585}
+  m_LocalPosition: {x: 0, y: 0.906, z: 0}
+  m_LocalScale: {x: 0.29149076, y: 0.25098497, z: 0.27783033}
   m_Children: []
-  m_Father: {fileID: 35469805}
+  m_Father: {fileID: 1620517528}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1133572569
@@ -2148,17 +2103,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1133572567}
   m_Mesh: {fileID: 4300000, guid: 667fb54aaa3c40f4c9c81b98eec5ca32, type: 3}
---- !u!114 &1133572572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1133572567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b5e340c4c24884499cbd92605aaf894, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1180221718
 Prefab:
   m_ObjectHideFlags: 0
@@ -2270,7 +2214,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1287869928
 Prefab:
@@ -2682,6 +2626,79 @@ Transform:
   m_PrefabParentObject: {fileID: 4289536284287788, guid: bd1d8e47fe0dc6841a353d3fdbba55ed,
     type: 2}
   m_PrefabInternal: {fileID: 1563207570}
+--- !u!1 &1620517527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1620517528}
+  - component: {fileID: 1620517530}
+  - component: {fileID: 1620517529}
+  - component: {fileID: 1620517531}
+  m_Layer: 0
+  m_Name: Tank
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1620517528
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1620517527}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1133572568}
+  - {fileID: 35469805}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1620517529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1620517527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0626984, y: 4.281584, z: 2.6206512}
+  m_Center: {x: 0.013976812, y: 2.180956, z: -0.007063389}
+--- !u!54 &1620517530
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1620517527}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: Infinity
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 84
+  m_CollisionDetection: 0
+--- !u!114 &1620517531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1620517527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8c224698d201343a1f1c9e10c69090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 400
+  turnSpeed: 20
 --- !u!1001 &1664732914
 Prefab:
   m_ObjectHideFlags: 0

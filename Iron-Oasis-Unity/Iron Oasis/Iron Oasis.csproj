@@ -86,8 +86,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraScript.cs" />
     <Compile Include="Assets\Scripts\EnemyManagerScript.cs" />
-    <Compile Include="Assets\Scripts\PlayerBaseMovement.cs" />
-    <Compile Include="Assets\Scripts\PlayerTurretMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Water\TBS_Water.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

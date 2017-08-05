@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBaseMovement : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
 
-    public float speed = 1f;
+    public float speed = 400f;
     public float turnSpeed = 20f;
 
+    private Transform hull;
+    private Transform turret;
+    private int ground;
     private Vector3 input;
     private Rigidbody rb;
     private Quaternion targetDirection;
@@ -14,6 +17,13 @@ public class PlayerBaseMovement : MonoBehaviour {
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
+        ground = LayerMask.GetMask("floor");
+    }
+
+    private void Start()
+    {
+        hull = this.transform.Find("Hull");
+        turret = this.transform.Find("Turret");
     }
 
     void OnEnable()
@@ -21,18 +31,15 @@ public class PlayerBaseMovement : MonoBehaviour {
         rb.isKinematic = false;
     }
 	
-	// Update is called once per frame
 	void Update () {
-
         input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
-        //Debug.Log(input);
-
     }
 
     private void FixedUpdate()
     {
         Move();
         Turn();
+        AimTurret();
     }
  
     private void Move()
@@ -42,20 +49,24 @@ public class PlayerBaseMovement : MonoBehaviour {
 
     private void Turn()
     {
-
         if (input != Vector3.zero)
             targetDirection = Quaternion.LookRotation(input);
 
         transform.rotation = Quaternion.Lerp(transform.rotation, targetDirection, turnSpeed * Time.deltaTime);
+    }
 
-            //Other turning method
-            /*
-            if (input != Vector3.zero)
-            {
-                targetDirection = Quaternion.LookRotation(input);
-                transform.eulerAngles = Vector3.up * Mathf.MoveTowardsAngle(transform.eulerAngles.y, targetDirection.eulerAngles.y, turnSpeed * Time.deltaTime);
-            }
-            */
+    private void AimTurret()
+    {
+        Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 
+        RaycastHit floorHit;
+
+        if (Physics.Raycast(camRay, out floorHit, 500, ground))
+        {
+            Vector3 playerToMouse = floorHit.point - turret.transform.position;
+            playerToMouse.y = 0f;
+            Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
+            turret.transform.rotation = newRotation;
         }
+    }
 }
