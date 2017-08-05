@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
+    public GameObject laser;
+
     public float speed = 8f;
     public float turnSpeed = 20f;
+    public float fireSpeed;
 
+    private float shootTime;
     private Transform hull;
     private Transform turret;
     private int ground;
@@ -20,7 +24,7 @@ public class PlayerMovement : MonoBehaviour {
         ground = LayerMask.GetMask("floor");
     }
 
-    private void Start()
+    void Start()
     {
         hull = this.transform.Find("Hull");
         turret = this.transform.Find("Turret");
@@ -33,9 +37,16 @@ public class PlayerMovement : MonoBehaviour {
 	
 	void Update () {
         input = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
+        if (Input.GetMouseButton(0) && Time.time >= shootTime)
+        {
+            var projectile = (GameObject)Instantiate(laser, turret.transform.position + Vector3.Normalize(turret.transform.forward) * 2.5f, turret.transform.rotation);
+            projectile.GetComponent<Rigidbody>().velocity = projectile.transform.forward * 30;
+            Destroy(projectile, 2.0f);
+            shootTime = Time.time + 1f / fireSpeed;
+        }
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         Move();
         Turn();
@@ -68,5 +79,7 @@ public class PlayerMovement : MonoBehaviour {
             Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
             turret.transform.rotation = newRotation;
         }
+        
     }
+    
 }
