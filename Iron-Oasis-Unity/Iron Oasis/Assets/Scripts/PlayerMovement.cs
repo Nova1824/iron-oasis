@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour {
 
     void OnEnable()
     {
+		Debug.Log("Testing log");
         rb.isKinematic = false;
     }
 	
