@@ -5005,6 +5005,7 @@ MonoBehaviour:
   speed: 8
   turnSpeed: 5
   fireSpeed: 5
+  projectileSpeed: 20
 --- !u!114 &1620517532
 MonoBehaviour:
   m_ObjectHideFlags: 0

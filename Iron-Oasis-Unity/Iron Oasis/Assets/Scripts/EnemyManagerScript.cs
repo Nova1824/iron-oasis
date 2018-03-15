@@ -15,7 +15,7 @@ public class EnemyManagerScript : MonoBehaviour
     public GameObject Player;
 
 	// Use this for initialization
-	void Start () {;
+	void Start () {
         InvokeRepeating("Spawn", spawnTime, spawnTime);
         Player = GameObject.FindGameObjectWithTag("Player");
     }
