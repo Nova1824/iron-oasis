@@ -15,10 +15,13 @@ public class CameraScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	}
-	
-	// Update is called once per frame
-	void LateUpdate () {
-        transform.position = target.position - offset * currentZoom;
-        transform.LookAt(target.position + Vector3.up * pitch);
+
+    // Update is called once per frame
+    void LateUpdate () {
+        if(target != null)
+        {
+            transform.position = target.position - offset * currentZoom;
+            transform.LookAt(target.position + Vector3.up * pitch);
+        }
 	}
 }
