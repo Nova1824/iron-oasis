@@ -32,7 +32,7 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (maxHealth <= 1000f)
+        if (maxHealth >= 1000f)
             maxHealth = 1000f;
         AddjustCurrentHealth(_speed * Time.deltaTime); //set healing rate to the _speed variable (multiplied by delta time to adjust for changes in frame rate) deltaTime is the time in sec. since the last frame update
         healthbarSlider.maxValue = maxHealth;
